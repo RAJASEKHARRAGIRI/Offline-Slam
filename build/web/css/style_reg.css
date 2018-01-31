@@ -1,0 +1,191 @@
+
+#back{
+                   position: absolute;
+                   transition: .5s;
+                   top: 530px;
+                   left:20px;
+                   decoration: none;
+               }
+               #back:hover{
+                   box-shadow: 0px 0px 10px 1px red;
+                              background:black ;
+                              color: red;
+               }
+                .home{
+                   position: absolute;
+                   transition: .5s;
+                   top: 500px;
+                   left:20px;
+                   decoration: none;
+               }
+               .home:hover{
+                   box-shadow: 0px 0px 10px 1px red;
+                              background:black ;
+                              color: red;
+               }
+               .fields{
+                   position: absolute;
+                      left: 60px;
+                      top: 100px
+               }
+                #box{           
+                            position: absolute;
+                      left: 480px;
+                      top: 120px;
+                      height: 470px;
+                     width: 380px;
+                     background: rgba(0,10,10,0.3);
+                       border: 5px solid white;
+                       box-shadow: 0px 0px 20px 0px azure;
+                      border-bottom-left-radius: 70px;
+                       border-bottom-right-radius: 70px;
+                       border-top-left-radius: 70px;
+                       border-top-right-radius: 70px;
+                       transition: 0.7s;
+                        
+                        }
+                        #box:hover{
+                          box-shadow: 0px 0px 10px 1px white;
+                              
+                              color: white;
+                        }
+               
+
+#loginbox{             position: absolute;
+                      left: 470px;
+                      color: black;
+                      top: 130px;
+                      height: 420px;
+                     width: 400px;
+                     background: rgba(0,0,0,0.3);
+                       border: 5px solid white;
+                       box-shadow: 0px 0px 20px 0px azure;
+                      border-bottom-left-radius: 70px;
+                       border-bottom-right-radius: 70px;
+                       border-top-left-radius: 70px;
+                       border-top-right-radius: 70px;
+                       transition: 0.5s;
+                        
+                        }
+                        #loginbox:hover{
+                          box-shadow: 0px 0px 10px 1px white;
+                              
+                              color: white;
+                        }
+                        //for add new user
+                       
+                      
+                         
+                       
+          #new{
+            margin:0px;
+            position: fixed;
+            top:0px;left: 0px;
+              width: 1500px;
+              height: 700px;
+              background:rgba(0,0,6,0.3); 
+          }
+           h3 {
+               position: absolute;
+               top: 20px;
+               left: 480px;
+               color: black;
+               font-family:  Starcraft;
+               font-size: 30px;
+            text-shadow: 0px 0px 10px black;
+          }
+          .field{
+              font-family:'Final Frontier';
+              color: black;
+              background-color: lightgreen; 
+               font-size: 18px;
+                  height:28px;
+                  width: 270px;
+                  margin-bottom: 25px;
+                   transition: 0.5s;
+          
+        }
+        .field1{
+                  height:25px;
+                   transition: 0.5s;
+                  margin-bottom: 25px;
+          
+        }
+        .field:hover,.field:focus{
+                     font-family:'Final Frontier';
+               font-size: 20px;
+                      box-shadow: 0px 0px 10px 1px white;
+                              background: gray;
+                              color: black;
+                            }
+        h2 {
+            text-shadow: 0px 0px 10px white;
+             top: 20px;
+               left: 80px;
+               color: black;
+              font-family:'Final Frontier';
+               font-size: 30px;
+          }
+          
+        
+        p{ color: white;
+          font-size: 130%;
+
+            }
+        body {
+            background: url(bg_login.jpg) ;
+            margin:0px;
+            background-size: 1500px 900px;
+            font-family:Times New Roman;
+            font-size: 20px;
+               }
+               
+                #button{
+                                 font-family:'Final Frontier';
+                                 font-size: 18px;
+                                    position: absolute;
+                                    background: grey;
+                                     color: black;
+                                  width: 125px;
+                                  height: 35px;
+                                  border-radius: 20px 20px 20px 20px;
+                                  border: 0px solid white;
+                                   border-bottom: 2px solid blue;
+                                   transition: 0.5s;
+
+                        }
+                       
+                        #button:hover{
+                             font-family:'Final Frontier';
+                                font-size: 18px;
+                              box-shadow: 0px 0px 10px 1px white;
+                              background: black;
+                              color: white;
+                        }
+                        
+                         .button1{
+                              position: absolute;
+                              top:320px;
+                              left:30px;
+                              background-color: black;
+                              color: white;
+                              font-size: 20px;
+                              font-family: 'Final Frontier';
+                                  width: 200px;
+                                  height: 35px;
+                                  border-radius: 20px 10px 20px 10px;
+                                  border: 0px solid white;
+                                  border-top: 2px solid white;
+                                   border-bottom: 2px solid white;
+                                   transition: 0.5s;
+
+                        }
+
+                        .button1:hover{
+                              box-shadow: 0px 0px 10px 1px white;
+                              background: black;
+                              color: white;
+                        }
+               
+               
+         

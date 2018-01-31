@@ -1,0 +1,432 @@
+body {
+	background:url('bg_login.jpg');
+	background-size: 1400px 800px;
+	font-family: Starcraft;
+	font-size: 20px;
+	color:black;
+         
+}
+.image{
+    position: absolute;
+    top: 16px;
+    left: 280px;
+}
+* {
+	margin:0;
+	padding:0;
+}
+
+/** element defaults **/
+table {
+       
+	width: 150%;
+	text-align: left;
+        transition: 0.5s;
+}
+table:hover{
+                   box-shadow: 0px 0px 10px 1px white  ;
+                              background:black ;
+                              color: red;
+               }
+
+th, td {
+   
+	padding: 10px 10px;
+}
+
+th {
+       box-shadow: 0px 10px 10px 1px black;
+	color: black;
+	background: grey;
+}
+
+td {
+     box-shadow: 0px 10px 10px 1px grey;
+	 background: rgba(0,00,0,0.9);
+	border-bottom: 1px solid #222;
+	color: white;
+}
+
+code, blockquote {
+	display: block;
+	border-left: 5px solid #ddd;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+code {
+	background-color: #ddd;
+	border: none;
+}
+blockquote {
+	border-left: 5px solid #333;
+}
+
+blockquote p {
+	font-style: italic;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	margin: 0;
+	color: #909090;
+	height: 1%;
+}
+
+p {
+	line-height: 2.2em;
+	margin-bottom: 20px;
+}
+
+a {
+	color: #298799;
+}
+
+a:hover {
+	color: #D36E5A;
+}
+
+a:focus {
+	outline: none;
+}
+
+fieldset {
+	display: block;
+	border: none;
+	border-top: 1px solid #ddd;
+}
+
+fieldset legend {
+	font-weight: bold;
+	font-size: 13px;
+	padding-right: 10px;
+	color: #999;
+}
+
+fieldset form {
+	padding-top: 15px;
+}
+
+fieldset p label {
+	float: left;
+	width: 150px;
+}
+
+form input, form select, form textarea {
+	padding: 5px;
+	color: #333333;
+	border: 1px solid #ddd;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+form input.formbutton {
+	background: transparent url() repeat-x scroll -35px 0;
+	border: 1px solid #2D95A9;
+	color: #32A6BD;
+	font-weight: bold;
+	padding: 5px 10px;
+	font-size: 12px;
+	font-family: purisa;
+	letter-spacing: 1px;
+	width: auto;
+	overflow: visible;
+}
+
+form.searchform p {
+	margin: 5px 0;
+}
+
+form.searchform input.s {
+	border: 1px solid #ccc;
+}
+
+h1 {
+	color: red;                       
+	font-size: 35px;
+        font-family: Broadway;
+        background: rgba(0,0,0,0.3);
+        top: 2px;
+          border: 5px solid white;
+                       box-shadow: 0px 0px 20px 0px azure;
+                      
+}
+#body h1 { 
+	padding-bottom: 10px;
+}
+h2 {
+	color: #32A6BD;
+	font-size: 28px;
+	letter-spacing: 0px;
+	padding: 0 0 5px;
+	margin: 0;
+	font-weight: normal;
+}
+#body h2 {
+
+    letter-spacing: -2px;
+}
+h3 {
+	color: #8AD2E0;
+	font-size: 20px;
+	font-weight: normal;
+	letter-spacing: -1px;
+	margin-bottom: 10px;
+}
+h4 {
+	padding-bottom: 10px;
+	font-size: 15px;
+	color: #999;
+}
+h5 {
+    
+	padding-bottom: 10px;
+	font-size: 13px;
+	color: #555;
+}
+ul, ol {
+      
+	margin: 0 0 35px 35px;
+}
+li {
+	padding-bottom: 5px;
+}
+li ol, li ul {
+      color: black;
+	font-size: 1.0em;
+	margin-bottom: 0;
+	padding-top: 5px;
+}
+#container {
+	width: 1000px;
+	margin:0 auto;
+	padding: 0;
+}
+#header {
+	padding: 0px 20px;
+	margin: 0 auto;
+	height: 150px;
+}
+#header h1, #header h2 { 
+	top: 1 px;
+        left:100px;
+}
+#header h1 {
+	padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left:200px;
+}
+#header h1 a {
+	color: #fff;
+	font-size: 45px;
+        
+	font-weight: normal;
+	text-decoration: none;
+	letter-spacing: -1px;
+	text-transform:uppercase;
+}
+#header h2 {
+	color: #B2E1EB;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	text-transform: uppercase;
+	letter-spacing: 0;
+}
+#nav {
+	//background: transparent url('') repeat-x scroll top left;
+	height:50px;
+          color: red;
+     
+       
+}
+
+#nav ul {
+	list-style: none;
+	padding: 10px 10px;
+	margin: 0px;
+	height: 47px;
+}
+#nav ul li {
+      color: black;
+	float: left;
+        alignment-adjust: 10px;
+                font-family:'Final Frontier';
+                  color: black;
+	display: block;
+	padding:0;
+}
+#nav ul li#search-li {
+	float: right;
+                font-family:'Final Frontier';
+
+	padding-right: 2px;
+	padding-top: 0px;
+}
+/*search button*/
+#nav ul li#search-li form input.formbutton  {
+    position: absolute;
+    top: 152px;
+    right: 185px;
+	background-color: grey;
+        border-radius: 10px 10px 10px 10px;
+	color: black;
+                font-family:'Final Frontier';
+                font-size:15px ;
+	border: none;
+	width: 100px;
+	height: 27px;
+        transition: 0.7s;
+}
+#nav ul li#search-li form input.formbutton:hover  {
+   
+	background-color: black;
+        border-radius: 10px 10px 10px 10px;
+	color: gray;
+                font-family:'Final Frontier';
+                font-size:18px ;
+                 box-shadow: 0px 0px 10px 1px gray;
+	border: none;
+	width: 100px;
+	height: 30px;
+}
+
+
+#nav ul li#search-li form p {
+	margin: -2px;
+}
+/*for menu bar labels*/
+#nav ul li a {
+       
+	color: black;
+	display: block;
+	font-size: 25px;
+	padding: 0px 20px 0px;
+	text-decoration: none;
+        transition: 0.7s;
+         box-shadow: 0px 0px 3px 6px black;
+	border: double;
+	font-family: 'Lucida Grande','Lucida Sans Unicode',Geneva,Verdana,Sans-Serif;
+}
+#nav ul li a:hover {
+	text-decoration: none;
+        border: None;
+        border-radius: 10px 10px 10px 10px;
+        font-size: 27px;
+        background: rgba(100,100,100,0.9);
+          color: white;
+                            
+}
+#nav ul li.selected  {
+font-family:'Final Frontier';
+
+}
+div#nav ul li.selected a {
+     font-family:'Final Frontier';
+     
+    font-weight: bold;
+}
+div#nav ul li.selected1 a {
+     font-family:'Final Frontier';
+    font-weight: bold;
+}
+div#nav ul li.selected2 a {
+     font-family:'Final Frontier';
+    font-weight: bold;
+}
+
+div#nav ul li.selected3 a {
+    
+     font-family:'Final Frontier';
+    font-weight: bold;
+}
+
+.field{
+    position: absolute;
+    top:153px;
+    right:290px;
+    border-color: black;
+    border-radius: 5px 5px 5px 5px;
+    background: rgba(200,200,200,0.7);
+    transition: .9s;
+}
+.field:hover{
+                   box-shadow: 0px 0px 10px 1px gray;
+                   width: 130px;
+                   height: 15px;
+                   font-size: 13px;
+                              background:black ;
+                              color: grey;
+               }
+
+
+
+#sub-header {
+	height: 247px;
+	background: transparent url('bg_login.jpg') no-repeat scroll top left;
+	padding: 10px;
+}
+.hidden { display:none;  }
+#sub-header-text {
+	background: transparent url('bg_login.jpg') no-repeat;
+	height: 242px;
+	padding: 0 20px;
+}
+#sub-header-text h2 {
+	padding-top: 60px;
+	color: #fff;
+}
+#sub-header-text p {
+	color: #fff;
+}
+// table 
+#body {
+	
+	padding: 5px;
+	width: 10px;
+        transition: .9s;
+}
+ 
+#body p, #body li, #body div {
+	line-height: 1.8em;
+	color: black;
+}
+#content {
+        font-family:'Final Frontier';
+        color:black;
+	float: left;
+	width: 667px;
+	margin: 0px;
+        margin-top: -10px;
+}	
+//for Table headers
+.row{
+    font-family: 'Final Frontier';
+    font-size: 17px;
+    color: white;
+}
+#table{
+    
+    background-color: yellow;
+}
+.clear {
+	clear: both;
+}
+.del{
+                             font-family: 'Final Frontier';
+                             font-size: 16px;
+                              background: black;
+                              color: white;
+                                  width: 80px;
+                                  height: 35px;
+                                  border-radius: 20px 20px 20px 20px;
+                                     box-shadow: 0px 0px 10px 1px red;
+                                  border: 0px solid white;
+                                   border-bottom: 2px solid green;
+                                   transition: 0.5s;
+
+                        }
+
+                        .del:hover{
+                              box-shadow: 0px 0px 10px 1px white;
+                              background: red;
+                               width: 80px;
+                                  height: 40px;
+                               font-size: 18px;
+                              color: white;
+                        }

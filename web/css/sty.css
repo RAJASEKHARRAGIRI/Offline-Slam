@@ -1,0 +1,108 @@
+
+a{text-decoration:none;}
+img{max-width:100%;}
+
+* { box-sizing: border-box; padding:0; margin: 0; }
+
+body {
+	font-family: 'Open Sans', sans-serif;
+ 	background:url(../images/bg.jpg) no-repeat center fixed;
+    -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+ 	background-size: cover;
+ 	background-size: 100% 100%;
+}
+form {
+	background:#0A192A;
+	border-radius:0.4em;
+  	border:1px solid #0A192A;
+  	overflow:hidden;
+  	position:relative;
+  	box-shadow: 0 5px 10px 5px rgba(0,0,0,0.2);
+}
+
+
+
+.inset {
+ padding:15px; 
+  
+}
+
+
+form h1  {
+	color:#fff;
+	text-shadow:0 1px 0 #000;
+	font-size:18px;
+	font-weight: 600;
+	text-align:center;
+  padding:18px 0;
+  border-bottom:1px solid #000;
+  position:relative;
+	
+}
+
+label {
+ 	color:rgba(137, 192, 243, 0.8);
+  	display:block;
+  	font-size:13px;
+  	padding-bottom:9px;
+}
+input[type=text],
+input[type=password] {
+  font-family: 'Open Sans', sans-serif;
+  width:100%;
+  padding:8px 5px;
+  background: rgb(167,167,167); /* Old browsers */
+  background: linear-gradient(to bottom,  rgba(167,167,167,1) 0%,rgba(181,181,181,1) 21%,rgba(228,228,228,1) 79%,rgba(242,242,242,1) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7a7a7', endColorstr='#f2f2f2',GradientType=0 ); /* IE6-9 */
+  border:1px solid #222;
+  box-shadow:0 1px 0 rgba(255,255,255,0.1);
+  border-radius:0.3em;
+  margin-bottom:20px;
+  color: #000;
+  font-size:15px;
+  outline: none;
+}
+span {
+    padding:0 20px 20px 20px; 
+}
+.p-container {
+ 	padding:0 20px 20px 20px; 
+}
+
+.p-container:after {
+ 	clear:both;
+  display:table;
+  content:"";
+}
+
+.p-container span a {
+  font-size:14px;
+  display:block;
+  float:left;
+  color:#0d93ff;
+  padding-top: 4px;
+}
+
+input[type=submit] {
+ 	padding:5px 20px;
+  border:1px solid #439F07;
+  text-shadow:0 -1px 0 rgba(0,0,0,0.4);
+ 
+  
+  background: linear-gradient(to bottom,  rgba(138,199,84,1) 0%,rgba(121,201,50,1) 45%,rgba(102,190,24,1) 48%,rgba(57,150,2,1) 97%,rgba(102,174,63,1) 100%); /* W3C */
+ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8ac754', endColorstr='#66ae3f',GradientType=0 ); /* IE6-9 */
+ color:white;
+  float:right;
+  font-weight:bold;
+  cursor:pointer;
+  font-size:15px;
+  outline: none;
+}
+@media only screen and (max-width:1366px) {
+	.main{
+	margin:5em auto 0;
+	width:30%;
+	}
+}

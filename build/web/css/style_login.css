@@ -1,0 +1,93 @@
+body
+{
+	text-align: center;
+	background: url(bg_login.jpg);
+	background-size: 1400px 900px;
+       
+        
+}
+a{
+	color:white;
+	transition:0.3s;
+}
+a:hover
+{
+	color:gray;
+}
+#center
+{
+    
+	width: 1100px;
+	margin-left: 10%;
+        margin-top: 100px;
+	color: white;
+}
+#header
+{
+   
+	font-size: 90px;
+	margin-top: -70px;
+        color: black;
+	font-family: Broadway;
+	text-shadow:10px 10px 10px graytext;
+
+}
+#con_right{
+	color:white;	
+	//display: block;
+	padding:15px;
+	//width:40%;
+	font-family: Times New Roman;
+	margin-left: 300px;
+	margin-right: 300px;
+	margin-top: 40px;
+	background: rgba(0,100,100,0.6);
+	min-height: 250px;
+	border-radius:10px; 
+	box-shadow: 0px 0px 10px 2px  white; 
+}
+.input
+{
+	width:300px;
+	margin: 15px;
+	font-size: 15px;
+	height:50px;
+	color: black;
+	transition:0.3s;
+	padding:5px; 
+	padding-left: 10px;
+}
+                .login_button{
+                    padding-left:5px;
+                         width: 100px;
+                         height: 40px;
+                         margin-right: 150px;
+                         background: rgb(100,50,120);
+                         border-radius: 10px 10px 10px 10px;
+                         button-color: 0px solid white;
+                         border: 0px 0px 0px 0px;
+                         transition: 0.5s;
+                         color: white;
+                         font-family: Times New Roman;
+                         font-size: 22px;
+
+                        }
+
+                        .login_button:hover{
+                              box-shadow: 0px 0px 10px 1px white;
+                              background: darkgoldenrod;
+                              color: white;
+                        }
+.input:hover,.input:focus
+{
+	box-shadow: 0px 0px 10px 0.1px white;
+}
+
+
+h2{
+    color: blanchedalmond;
+    font-size: 25px;
+    position: absolute;
+    top: 88%;
+   text-shadow:0px 0px 10px white;
+}
