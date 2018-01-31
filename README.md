@@ -1,0 +1,2 @@
+# Offline-Slam
+Offline slam is used to store the information of the people. The user have to create the account. By registering in the slam book application, the user can be permitted to store the details of the people. At the time of storing the information, the user should connect to the server. Once the information is stored, the user can get access to the information with the offline mode. The user can add persons details to the slam to get the details easily from anywhere.
